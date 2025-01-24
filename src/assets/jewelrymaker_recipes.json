@@ -1,0 +1,46 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Strings/Objects",
+            "Entries": {
+                "{{ModId}}_Jewelry_Dagger_Jeweled_Display_Name": "{{i18n:JeweledDagger.Output.ObjectDisplayName}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": [
+                "(BC)mytigio.dwarven_expansion_JewelryMaker",
+                "OutputRules",
+                "Jewelry",
+                "OutputItem"
+            ],
+            "Entries": {
+                "Jewelry_E_Jeweled": {
+                    "Id": "Jewelry_Dagger_Jeweled",
+                    "ItemId": "{{ModId}}_Jewelry_Dagger_Jeweled",
+                    "CopyPrice": true,
+                    "CopyQuality": true,
+                    "CopyColor": true,
+                    "ObjectInternalName": "{0} Encrusted Dagger",
+                    "ObjectDisplayName": "[LocalizedText Strings/Objects:{{ModId}}_Jewelry_Dagger_Jeweled_Display_Name %PRESERVED_DISPLAY_NAME]",
+                    "PreserveId": "DROP_IN",
+                    "Condition": "ITEM_ID Input (O)AlexandriteDrop (O)BorniteDrop (O)GahniteDrop (O)LabradoriteDrop (O)SpectroliteDrop (O)MagnetiteDrop (O)SmokyQuartzDrop (O)TaconiteDrop (O)AbelsoniteDrop (O)AntigoriteDrop (O)ArcaniteDrop (O)AnataseDrop (O)AndersoniteDrop (O)BabingtoniteDrop (O)BrazilianiteDrop",
+                    "PriceModifiers": [
+                        {
+                            "ID": "increase_base_for_gold_bar",
+                            "Modification": "Add",
+                            "Amount": 250
+                        },
+                        {
+                            "ID": "multiply",
+                            "Modification": "Multiply",
+                            "Amount": 3.00
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}
