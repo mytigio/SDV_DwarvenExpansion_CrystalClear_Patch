@@ -34,4 +34,4 @@ These generic dusts can be used to make Infused Spirits just like any other.
 
 
 Github Repository
-https://github.com/mytigio/SDV_DwarvenExpansionTheGeologyModPatch
+https://github.com/mytigio/SDV_DwarvenExpansion_CrystalClear_Patch

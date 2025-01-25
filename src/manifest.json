@@ -5,7 +5,7 @@
 	"Description": "Adds compatability for Dwarven Expansion jewelry making with minerals in Toni's Crystal Clear",
 	"UniqueID": "mytigio.dwarven_expansion_tcc",
 	"MinimumApiVersion": "2.11.2",
-	"UpdateKeys": ["Nexus:xxxx"],
+	"UpdateKeys": ["Nexus:31133"],
 	"Dependencies": [
 		{
 			"UniqueID": "mytigio.dwarven_expansion",
