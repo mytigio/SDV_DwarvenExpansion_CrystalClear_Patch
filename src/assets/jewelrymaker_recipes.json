@@ -17,7 +17,7 @@
                 "OutputItem"
             ],
             "Entries": {
-                "Jewelry_E_Jeweled": {
+                "Jewelry_D_Jeweled": {
                     "Id": "Jewelry_Dagger_Jeweled",
                     "ItemId": "{{ModId}}_Jewelry_Dagger_Jeweled",
                     "CopyPrice": true,
